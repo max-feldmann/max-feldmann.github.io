@@ -1,7 +1,95 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    line-height: 28px;
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-style: normal;
 }
 
-h1 {
-    color: #6247AA;
+ul {
+    margin: 0px;
+    padding: 0px;
 }
+
+.header {
+    background-color: #fff;
+    display: block;
+    height: 70px;
+    margin: 0px;
+    padding-left: 210px;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    position: absolute;
+    left: 2em;
+    height: 40px;
+    width: auto;
+    top: 10px;
+}
+
+.navlist {
+    display: inline-block;
+    align-items: baseline;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.navitem {
+    list-style-type: none;
+    position: relative;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 22px;
+    padding-right: 30px;
+
+}
+
+a.navlink {
+    color: #151515;
+    text-decoration: none;
+    opacity: 0.8;
+    font-size: 16px;
+}
+
+a.navlink:hover {
+    text-decoration: underline;
+}
+
+.button-red {
+    background-color: #E30238;
+}
+
+.button-red:hover {
+    text-decoration: underline;
+}
+
+.stani-button {
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+}
+
+.navlink-button {
+    text-decoration: none;
+    padding: 8px;
+    padding-right: 30px;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.right {
+    right: 0px;
+}
+
+.nav-shadow {
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.2);
+  }
