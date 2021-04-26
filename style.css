@@ -14,11 +14,11 @@ ul {
 }
 
 .header {
-    background-color: #fff;
+    background-color: #6247aa;
     display: block;
     height: 70px;
     margin: 0px;
-    padding-left: 210px;
+    padding-left: 300px;
     position: sticky;
     top: 0;
 }
@@ -50,6 +50,7 @@ ul {
 
 a.navlink {
     color: #151515;
+    color: white;
     text-decoration: none;
     opacity: 0.8;
     font-size: 16px;
@@ -60,7 +61,8 @@ a.navlink:hover {
 }
 
 .button-red {
-    background-color: #E30238;
+    background-color: #fff;
+    color: black;
 }
 
 .button-red:hover {
@@ -72,7 +74,6 @@ a.navlink:hover {
     padding: 8px 30px;
     border-radius: 25px;
     text-decoration: none;
-    color: white;
     line-height: 25px;
 }
 
