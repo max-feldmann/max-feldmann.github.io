@@ -79,6 +79,15 @@ a.navlink:hover {
     text-decoration: underline;
 }
 
+.button-purple {
+    background-color: #6247AA;
+    color: white;
+}
+
+.button-purple:hover {
+    text-decoration: underline;
+}
+
 .stani-button {
     display: inline-block;
     padding: 8px 30px;
