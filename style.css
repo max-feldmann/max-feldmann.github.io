@@ -6,6 +6,16 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-style: normal;
+    height: 100%;
+}
+
+.h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.full-height {
+    height: 100%;
 }
 
 ul {
@@ -18,7 +28,7 @@ ul {
     display: block;
     height: 70px;
     margin: 0px;
-    padding-left: 300px;
+    padding-left: 350px;
     position: sticky;
     top: 0;
 }
@@ -53,7 +63,7 @@ a.navlink {
     color: white;
     text-decoration: none;
     opacity: 0.8;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 a.navlink:hover {
@@ -65,7 +75,7 @@ a.navlink:hover {
     color: black;
 }
 
-.button-red:hover {
+.button-white:hover {
     text-decoration: underline;
 }
 
@@ -94,3 +104,12 @@ a.navlink:hover {
 .nav-shadow {
     box-shadow: 0 2px 8px 0 rgba(0,0,0,.2);
   }
+
+#hero {
+    background-image: url("assets/background-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 200px;
+}
